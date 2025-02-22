@@ -38,7 +38,7 @@ const SkillsSection = () => {
   return (
     <section id="skills" className="py-16 bg-[#0f111a]">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl font-semibold mb-10 text-white tracking-wide">
+        <h2 className="text-3xl font-semibold mb-10 text-[#4fd1c5] tracking-wide">
           Skills
         </h2>
 
