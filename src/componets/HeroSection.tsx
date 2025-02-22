@@ -32,9 +32,10 @@ const HeroSection = () => {
 
           <div className="mt-8 flex justify-center md:justify-start gap-6">
             <a
-              href="/curriculo-valney.pdf"
+              href="https://drive.google.com/file/d/1_pmZ_ya_ODLDIySnhF2-MOFTuJStcyi4/view?usp=drive_link"
               className="px-8 py-3 bg-[#4fd1c5] text-[#1a1f2e] rounded-lg hover:bg-[#3bb3a9] transition-all duration-300"
               aria-label="Baixar currículo de Valney Rodrigues"
+              target="_blank"
             >
               Currículo
             </a>

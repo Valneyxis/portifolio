@@ -26,7 +26,6 @@ const AboutSection = () => {
           transition={{ duration: 0.6 }}
           className="max-w-3xl mx-auto flex flex-col md:flex-row items-center text-center md:text-left"
         >
-          {/* Foto */}
           <motion.img
             src={valney}
             alt="Valney Rodrigues"
@@ -37,7 +36,6 @@ const AboutSection = () => {
             transition={{ delay: 0.3 }}
           />
 
-          {/* Descrição */}
           <div>
             <motion.p
               initial={{ opacity: 0 }}
@@ -61,7 +59,6 @@ const AboutSection = () => {
               impactantes. Meu objetivo é me tornar um desenvolvedor full-stack
             </motion.p>
 
-            {/* Ícones de redes sociais */}
             <div className="flex justify-center md:justify-start space-x-6">
               {[
                 {
@@ -82,6 +79,7 @@ const AboutSection = () => {
                   href={social.href}
                   whileHover={{ scale: 1.2 }}
                   className="text-gray-400 hover:text-[#4fd1c5] transition-all duration-300"
+                  target="_blank"
                 >
                   {social.icon}
                 </motion.a>

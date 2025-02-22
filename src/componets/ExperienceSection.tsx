@@ -10,7 +10,7 @@ const staggerContainer = {
 
 const ExperienceSection = () => {
   return (
-    <section id="experiencias" className="py-20 bg-[#0f111a]">
+    <section id="experiências" className="py-20 bg-[#0f111a]">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <motion.h2
           {...fadeIn}

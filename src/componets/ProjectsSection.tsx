@@ -72,6 +72,7 @@ const ProjectsSection = () => {
                   whileHover={{ scale: 1.1 }}
                   className="text-[#4fd1c5] hover:text-[#3bb3a9] transition-colors text-lg"
                   title="Ver Projeto"
+                  target="_blank"
                 >
                   <FaExternalLinkAlt size={17} />
                 </motion.a>

@@ -10,7 +10,6 @@ const Navbar = () => {
         <span className="text-lg font-semibold text-[#4fd1c5]">
           Valney Rodrigues
         </span>
-
         <div className="hidden md:flex space-x-8">
           {menuItems.map((item) => (
             <a

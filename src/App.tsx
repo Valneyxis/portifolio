@@ -2,7 +2,7 @@ import Navbar from "../src/componets/Navbar";
 import HeroSection from "../src/componets/HeroSection";
 import SkillsSection from "../src/componets/SkillsSection";
 import ProjectsSection from "../src/componets/ProjectsSection";
-import Experience from "../src/componets/Experience";
+import ExperienceSection from "./componets/ExperienceSection";
 import About from "../src/componets/About";
 import Footer from "../src/componets/Footer";
 
@@ -13,7 +13,7 @@ function App() {
       <HeroSection />
       <SkillsSection />
       <ProjectsSection />
-      <Experience />
+      <ExperienceSection />
       <About />
       <Footer />
     </div>
